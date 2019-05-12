@@ -5,20 +5,42 @@ GitHub Pages:https://jimmydejesus.github.io/Final-Practical/
 
 Development Site : N/A
 
-## **iop-400.0 | Beginning Our Application Base | Project**
-
-#### Created index.HTML
+## Created index.HTML
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    .connected html to app.js file with a Script
-    .added viewport, Beginning mobile Development
-    .linked bootstrap stylesheet with "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    . added a style and a style with div tags to make a polaroid effect on the image
+    . added a animation duration, direction and name to make the polaroid slide in before the img
+    . referenced the img from the img folder
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#### Created app.js
+## Created Assets Folder
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    .added title, header, body, and footer texts by populating them with classes and elwrappers
-    .added animation code to the bottom of the app.js that lets each section of the HTML bounceInDown, bounceInLeft, bounceInRight, zoomIn
+    . created Images Folder
+    . created JS Folder
+    . created CSS Folder
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#### Created Images Folder
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    . added a germany.jpg image
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#### Created JS Folder
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    . added the js code to auto generate more then one animation with a collection of arrays
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Created CSS Folder
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    . added a background image with a url targeting the body
+    . useing "img" I targeted the image to fit better and have a responsive aspect to it. Began the animation fadeInRight with a duration of 1.3s and a basic direction from the right.
+    . on hover, added a framework called bloom where it came from grayscale 100% to 0
+    . added the keyframe to make the img go from the right of the screen whenever you were done hovering over the img
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
